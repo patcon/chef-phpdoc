@@ -19,8 +19,7 @@
 
 require_recipe "php"
 
-php_pear "phpdoc" do
+php_pear "PhpDocumentor" do
   version node['phpdoc']['version']
-  channel "PhpDocumentor"
   action :install
 end
